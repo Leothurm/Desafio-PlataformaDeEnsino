@@ -40,6 +40,8 @@ public class Program {
 		
 		list.add(lesson);
 		
+		System.out.println();
+		
 		
 		
 		} else {
@@ -51,6 +53,8 @@ public class Program {
 			Lesson lesson = new Task(title, description, questionCount);
 			
 			list.add(lesson);
+			
+			System.out.println();
 			}
 		
 		}
@@ -62,7 +66,7 @@ public class Program {
 		}
 		
 		
-		System.out.println();
+		
 		System.out.printf("DURAÇÃO TOTAL DO CURSO = %d segundos %n", totalSeconds);
 		
 		
